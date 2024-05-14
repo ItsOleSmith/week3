@@ -10,4 +10,4 @@ tipAmount = totalDue * .12;
 tipAmount = Math.ceil(tipAmount);
 //output
 console.log("Your net worth is " + netWorth)
-console.log("The tip on a $" + tipAmount + " food bill is $"+ totalDue)
+console.log("The tip on a $" + tipAmount.toFixed(2) + " food bill is $"+ totalDue)
