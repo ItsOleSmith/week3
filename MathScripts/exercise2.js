@@ -1,5 +1,7 @@
 //inputs 
-var foodCost = 79.25 , tax = 6.54 , tip = 12.00;
+var foodCost = 79.25 , 
+tax = 6.54 , 
+tip = 12.00;
 // formula calculations 
 var totalDue = foodCost + tax + tip;
 //output 
